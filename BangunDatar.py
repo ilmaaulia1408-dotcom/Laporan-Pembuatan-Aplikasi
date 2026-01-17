@@ -46,7 +46,7 @@ elif pilihan == 3:
     a = float(input('Masukkan nilai Alas :'))
     t = float(input('Masukkan nilai Tinggi :'))
 
-    luas = 0,5*a*t
+    luas = 0.5*a*t
     keliling = a+a+a
     print('\nLuasnya =', str(luas))
     print('Keliling =', str(keliling))
